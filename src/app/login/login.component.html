@@ -1,0 +1,26 @@
+<div class="app-body">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="card-group">
+                <div class="card-body text-center">
+                    <h2 class="color-Brown mb-3">
+                        ShowBox
+                    </h2>
+                    <br />
+                    <p class="color-Orange">
+                        Ultimate and best Movies,Tv shows, and more </p><br>
+                    <p>On your Click</p>
+
+                    <br />
+                    <form [formGroup]="Email" name="Email">
+                        <div class="form-group coloum">
+                            <input type="email" placeholder="Email" formControlName="email" />
+                            <button class="btn btn-danger" routerLink="/plans">Start Now</button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
