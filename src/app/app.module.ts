@@ -8,11 +8,17 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PlansComponent } from './plans/plans.component';
+import { PaymentComponent } from './payment/payment.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { UpipayComponent } from './upipay/upipay.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    PlansComponent
+    PlansComponent,
+    PaymentComponent,
+    DashboardComponent,
+    UpipayComponent,
   ],
   imports: [
     BrowserModule,
@@ -20,9 +26,9 @@ import { PlansComponent } from './plans/plans.component';
     NgbModule,
     ReactiveFormsModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
